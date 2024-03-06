@@ -1,0 +1,179 @@
+{
+  "categories": [
+    {
+      "name": "Pixar",
+      "movies": [
+        {
+          "name": "Toy Story",
+          "description": "A story about toys coming to life.",
+          "length": "81 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Finding Nemo",
+          "description": "A clownfish embarks on a journey to find his son.",
+          "length": "100 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "The Incredibles",
+          "description": "A family of superheroes save the world.",
+          "length": "115 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Up",
+          "description": "An old man and a young boy go on an adventure.",
+          "length": "96 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Inside Out",
+          "description": "Emotions navigate the mind of a young girl.",
+          "length": "95 minutes",
+          "imageUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Marvel",
+      "movies": [
+        {
+          "name": "Iron Man",
+          "description": "A billionaire genius builds a high-tech suit.",
+          "length": "126 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Avengers: Endgame",
+          "description": "Superheroes unite to defeat a powerful villain.",
+          "length": "181 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Black Panther",
+          "description": "A king fights to protect his nation.",
+          "length": "134 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Guardians of the Galaxy",
+          "description": "A group of misfits save the galaxy.",
+          "length": "121 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Spider-Man: Homecoming",
+          "description": "A young superhero balances school and crime-fighting.",
+          "length": "133 minutes",
+          "imageUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Disney",
+      "movies": [
+        {
+          "name": "The Lion King",
+          "description": "A young lion prince overcomes adversity.",
+          "length": "88 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Beauty and the Beast",
+          "description": "A young woman falls in love with a beast.",
+          "length": "84 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Aladdin",
+          "description": "A street urchin discovers a magical lamp.",
+          "length": "90 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Frozen",
+          "description": "Two sisters navigate a wintry adventure.",
+          "length": "102 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Moana",
+          "description": "A young girl sets sail on a daring journey.",
+          "length": "107 minutes",
+          "imageUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Star Wars",
+      "movies": [
+        {
+          "name": "Star Wars: A New Hope",
+          "description": "A farm boy becomes a hero in a galaxy far, far away.",
+          "length": "121 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "The Empire Strikes Back",
+          "description": "The rebels face off against the empire.",
+          "length": "124 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Return of the Jedi",
+          "description": "The final battle between the rebels and the empire.",
+          "length": "131 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "The Force Awakens",
+          "description": "A new generation of heroes and villains emerges.",
+          "length": "138 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "The Last Jedi",
+          "description": "The resistance fights against the first order.",
+          "length": "152 minutes",
+          "imageUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "National Geographic",
+      "movies": [
+        {
+          "name": "Free Solo",
+          "description": "A climber attempts to conquer a dangerous rock face.",
+          "length": "100 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "The Cave",
+          "description": "A team of explorers venture into an underground cave.",
+          "length": "104 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Jane",
+          "description": "A documentary about the life of Jane Goodall.",
+          "length": "90 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "Before the Flood",
+          "description": "Leonardo DiCaprio explores the impact of climate change.",
+          "length": "96 minutes",
+          "imageUrl": ""
+        },
+        {
+          "name": "The Ivory Game",
+          "description": "A documentary about the illegal ivory trade.",
+          "length": "112 minutes",
+          "imageUrl": ""
+        }
+      ]
+    }
+  ]
+}

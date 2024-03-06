@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { User, useAuth } from '../context/AuthContext';
 import { Navigate } from 'react-router-dom';
 
+import Logo from '../assets/disney-logo.svg?react';
+
 const Login = () => {
 	const { user, login } = useAuth();
 
@@ -13,9 +15,9 @@ const Login = () => {
 
 	return (
 		<div className="bg-disney-login bg-no-repeat bg-cover h-[100vh] bg-center">
-			<div className="flex flex-col gap-2 items-center h-full">
+			<div className="flex flex-col gap-5 items-center h-full">
 				<div>
-					<h3>Image</h3>
+					<Logo />
 				</div>
 
 				<Card onSubmit={onSubmit} />
