@@ -24,7 +24,7 @@ npm run dev
 yarn dev
 ```
 
-After the project compiles go to [Localhost](localhost:5173)
+After the project compiles go to [Localhost](http://localhost:5173)
 
 ```localhost
 localhost:5173
