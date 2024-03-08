@@ -1,13 +1,16 @@
 # Disney Plus Clone
 
-This app its a clone of the Disney Plus web page.
+Esta app es un clon de disney plus.
 
 > [!WARNING]  
-> Most images are taken from websites like BBC One, their availability depend on their owners.
+> La mayoría de las imágenes son tomadas de sitios web como BBC One, su disponibilidad está sujeta a los dueños del sitio.
 
-## Steps to run
+## User's credentials
+Las credenciales de los usuarios se encuentran en ```src/data/users.json```
 
-1. Install dependencies
+## Pasos para correr el projecto
+
+1. Instalar dependencias
 
 ```npm
 npm install
@@ -17,7 +20,7 @@ npm install
 yarn
 ```
 
-2. Run the project in dev mode
+2. Ejecutar el projecto en modo desarrollo
 
 ```npm
 npm run dev
@@ -27,7 +30,7 @@ npm run dev
 yarn dev
 ```
 
-After the project compiles go to [Localhost](http://localhost:5173)
+Desopues de que sea compilado dirigirse al navegador y entrar a [Localhost](http://localhost:5173)
 
 ```localhost
 localhost:5173
