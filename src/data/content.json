@@ -7,7 +7,7 @@
           "name": "Toy Story",
           "description": "A story about toys coming to life.",
           "length": "81 minutes",
-          "imageUrl": ""
+          "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p070qzfv.jpg"
         },
         {
           "name": "Finding Nemo",
@@ -31,7 +31,7 @@
           "name": "Inside Out",
           "description": "Emotions navigate the mind of a young girl.",
           "length": "95 minutes",
-          "imageUrl": ""
+          "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p06vksld.jpg"
         }
       ]
     },
@@ -42,31 +42,31 @@
           "name": "Iron Man",
           "description": "A billionaire genius builds a high-tech suit.",
           "length": "126 minutes",
-          "imageUrl": ""
+          "imageUrl": "https://facts.net/wp-content/uploads/2023/06/37-facts-about-the-movie-iron-man-1687326841.jpeg"
         },
         {
           "name": "Avengers: Endgame",
           "description": "Superheroes unite to defeat a powerful villain.",
           "length": "181 minutes",
-          "imageUrl": ""
+          "imageUrl": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/BF0D/production/_106090984_2e39b218-c369-452e-b5be-d2476f9d8728.jpg"
         },
         {
           "name": "Black Panther",
           "description": "A king fights to protect his nation.",
           "length": "134 minutes",
-          "imageUrl": ""
+          "imageUrl": "https://as01.epimg.net/epik/imagenes/2020/11/22/portada/1606073319_825432_1606073416_noticia_normal_recorte1.jpg"
         },
         {
           "name": "Guardians of the Galaxy",
           "description": "A group of misfits save the galaxy.",
           "length": "121 minutes",
-          "imageUrl": ""
+          "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p061d1pl.jpg"
         },
         {
           "name": "Spider-Man: Homecoming",
           "description": "A young superhero balances school and crime-fighting.",
           "length": "133 minutes",
-          "imageUrl": ""
+          "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p090t8wh.jpg"
         }
       ]
     },

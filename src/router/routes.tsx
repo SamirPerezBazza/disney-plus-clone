@@ -4,20 +4,25 @@ import Login from '../routes/Login';
 import Home from '../routes/Home';
 import { AuthProvider } from '../context/AuthContext';
 import { Root } from '../routes/root';
-import Category from '../routes/Category';
+import Category, { loader as categoryLoader } from '../routes/Category';
 
 export const routes: RouteObject[] = [
 	{
 		path: paths.root,
-		element: <Root />,
+		element: (
+			<AuthProvider>
+				<Root />
+			</AuthProvider>
+		),
 		children: [
 			{
-				path: paths.home,
 				element: <Home />,
+				index: true,
 			},
 			{
-				path: '/category',
+				path: '/category/:category',
 				element: <Category />,
+				loader: categoryLoader,
 			},
 		],
 	},
