@@ -2,6 +2,9 @@
 
 This app its a clone of the Disney Plus web page.
 
+> [!WARNING]  
+> Most images are taken by websites like BBC One, their availability depend on their owners.
+
 ## Steps to run
 
 1. Install dependencies
