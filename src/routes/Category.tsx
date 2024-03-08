@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import { getCategory } from '../utils/getCategory';
 import { Category as CategoryType } from '../types/categories';
 
@@ -18,12 +18,15 @@ const Category = () => {
 
 			<div className="flex justify-between">
 				{categories.movies.map((movie, index) => (
-					<div
+					<Link
 						key={index}
-						className="w-[18%] h-[100px] bg-gradient-to-b from-gray-600 to-gray-700 rounded mt-2"
+						to={`/category/${categories.name}/${movie.name}`}
+						className="w-[18%] h-[100px] "
 					>
-						<img src={movie.imageUrl} alt={movie.name} />
-					</div>
+						<div className="w-full h-full bg-gradient-to-b from-gray-600 to-gray-700 rounded mt-2">
+							<img src={movie.imageUrl} alt={movie.name} />
+						</div>
+					</Link>
 				))}
 			</div>
 		</div>

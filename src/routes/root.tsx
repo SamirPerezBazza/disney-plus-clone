@@ -1,11 +1,12 @@
 import { Link, Outlet } from 'react-router-dom';
 import { ProtectedRoute } from '../router/ProtectedRoute';
-import { AuthProvider, useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/AuthContext';
 import disneyLogo from '../assets/png/disney_logo.png';
 import homeIcon from '../assets/png/home_icon.png';
+import logoutIcon from '../assets/png/logout_icon.png';
 
 export const Root = () => {
-	const { user } = useAuth();
+	const { user, logout } = useAuth();
 
 	return (
 		<ProtectedRoute>
@@ -23,14 +24,16 @@ export const Root = () => {
 							<img className="w-[30px]" src={homeIcon} alt="Home" />
 						</Link>
 					</li>
-					<li className="ml-2">
-						<input
-							className="flex-1 h-full w-full bg-transparent focus:outline-none"
-							placeholder="Search..."
-						/>
-					</li>
 				</ul>
-				<div>{user?.email}</div>
+				<div className="flex items-center">
+					{user?.email}
+					<button
+						className="bg-red-500 text-white px-1 py-1 rounded ml-2"
+						onClick={logout}
+					>
+						<img src={logoutIcon} className="w-[20px]" />
+					</button>
+				</div>
 			</nav>
 			<div>
 				<Outlet />

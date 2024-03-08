@@ -5,6 +5,7 @@ import Home from '../routes/Home';
 import { AuthProvider } from '../context/AuthContext';
 import { Root } from '../routes/root';
 import Category, { loader as categoryLoader } from '../routes/Category';
+import { Movie, loader as movieLoader } from '../routes/Movie';
 
 export const routes: RouteObject[] = [
 	{
@@ -23,6 +24,11 @@ export const routes: RouteObject[] = [
 				path: '/category/:category',
 				element: <Category />,
 				loader: categoryLoader,
+			},
+			{
+				path: '/category/:category/:movie',
+				element: <Movie />,
+				loader: movieLoader,
 			},
 		],
 	},
