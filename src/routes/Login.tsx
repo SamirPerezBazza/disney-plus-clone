@@ -5,6 +5,11 @@ import { Navigate } from 'react-router-dom';
 import Logo from '../assets/disney-logo.svg?react';
 import { checkEmail, login } from '../utils/checkCredentials';
 
+interface UserLogin extends Omit<User, 'name' | 'profilePic'> {
+	email: string;
+	password: string;
+}
+
 const Login = () => {
 	const { user, login } = useAuth();
 
@@ -35,7 +40,7 @@ const Card = ({ onSubmit }: CardProps) => {
 	const [step, setStep] = useState<number>(0);
 	const [error, setError] = useState<string>('');
 
-	const [credentials, setCredentials] = useState<User>({
+	const [credentials, setCredentials] = useState<UserLogin>({
 		email: '',
 		password: '',
 	});
@@ -54,7 +59,7 @@ const Card = ({ onSubmit }: CardProps) => {
 
 		if (!validLogin) return setError('La contraseña es incorrecta');
 
-		onSubmit(credentials as User);
+		onSubmit(validLogin);
 	};
 
 	return (

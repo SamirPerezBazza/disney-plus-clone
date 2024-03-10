@@ -1,3 +1,4 @@
+import { User } from '../context/AuthContext';
 import users from '../data/users.json';
 
 export const checkEmail = (email: string) => new Promise<boolean>((resolve, reject) => {
@@ -11,13 +12,13 @@ export const checkEmail = (email: string) => new Promise<boolean>((resolve, reje
   }
 });
 
-export const login = (email: string, password: string) => new Promise<boolean>((resolve, reject) => {
+export const login = (email: string, password: string) => new Promise<User | null>((resolve, reject) => {
   try {
     const user = users.filter((user) => user.email === email && user.password === password);
     setTimeout(() => {
-      resolve(user.length > 0);
+      resolve(user[0]);
     }, 500);
   } catch (error) {
-    reject(error);
+    reject(null);
   }
 });

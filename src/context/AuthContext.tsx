@@ -9,6 +9,8 @@ interface Props {
 export interface User {
 	email: string;
 	password: string;
+	name: string;
+	profilePic: string;
 }
 
 interface AuthContextValue {

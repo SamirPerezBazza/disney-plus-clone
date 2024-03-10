@@ -5,31 +5,31 @@
       "movies": [
         {
           "name": "Toy Story",
-          "description": "A story about toys coming to life.",
+          "description": "A story about toys coming to life. Join Woody, Buzz Lightyear, and their friends on an adventure full of fun and heartwarming moments. Experience the magic of friendship and the power of imagination in this beloved animated film.",
           "length": "81 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p070qzfv.jpg"
         },
         {
           "name": "Finding Nemo",
-          "description": "A clownfish embarks on a journey to find his son.",
+          "description": "A clownfish embarks on a journey to find his son. Dive into the breathtaking underwater world and meet unforgettable characters along the way. This heartwarming tale will take you on an unforgettable adventure.",
           "length": "100 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p01nh7fr.jpg"
         },
         {
           "name": "The Incredibles",
-          "description": "A family of superheroes save the world.",
+          "description": "A family of superheroes save the world. Join Mr. Incredible, Elastigirl, and their superpowered children as they battle evil and protect humanity. This action-packed film is filled with thrilling moments and heartwarming family dynamics.",
           "length": "115 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p01gmcx6.jpg"
         },
         {
           "name": "Up",
-          "description": "An old man and a young boy go on an adventure.",
+          "description": "An old man and a young boy go on an adventure. Embark on a journey to a floating paradise with Carl and Russell. This heartwarming film explores themes of friendship, love, and the importance of pursuing your dreams.",
           "length": "96 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p01j0d7c.jpg"
         },
         {
           "name": "Inside Out",
-          "description": "Emotions navigate the mind of a young girl.",
+          "description": "Emotions navigate the mind of a young girl. Join Joy, Sadness, Anger, Fear, and Disgust as they help Riley navigate the challenges of growing up. This imaginative film explores the complexities of emotions and the importance of embracing all feelings.",
           "length": "95 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p06vksld.jpg"
         }
@@ -40,31 +40,31 @@
       "movies": [
         {
           "name": "Iron Man",
-          "description": "A billionaire genius builds a high-tech suit.",
+          "description": "A billionaire genius builds a high-tech suit. Witness the birth of a superhero as Tony Stark becomes Iron Man. This thrilling film combines action, humor, and a compelling origin story that kick-started the Marvel Cinematic Universe.",
           "length": "126 minutes",
           "imageUrl": "https://facts.net/wp-content/uploads/2023/06/37-facts-about-the-movie-iron-man-1687326841.jpeg"
         },
         {
           "name": "Avengers: Endgame",
-          "description": "Superheroes unite to defeat a powerful villain.",
+          "description": "Superheroes unite to defeat a powerful villain. Experience the epic conclusion to the Avengers saga as Earth's mightiest heroes face their greatest challenge. This action-packed film is filled with emotional moments and surprises.",
           "length": "181 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/BF0D/production/_106090984_2e39b218-c369-452e-b5be-d2476f9d8728.jpg"
         },
         {
           "name": "Black Panther",
-          "description": "A king fights to protect his nation.",
+          "description": "A king fights to protect his nation. Enter the vibrant world of Wakanda and follow T'Challa's journey to become the Black Panther. This groundbreaking film celebrates African culture and delivers a powerful message of identity and empowerment.",
           "length": "134 minutes",
           "imageUrl": "https://as01.epimg.net/epik/imagenes/2020/11/22/portada/1606073319_825432_1606073416_noticia_normal_recorte1.jpg"
         },
         {
           "name": "Guardians of the Galaxy",
-          "description": "A group of misfits save the galaxy.",
+          "description": "A group of misfits save the galaxy. Join Star-Lord, Gamora, Drax, Rocket, and Groot on a cosmic adventure filled with humor, action, and an awesome soundtrack. This film combines heart, humor, and a love for 80s pop culture.",
           "length": "121 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p061d1pl.jpg"
         },
         {
           "name": "Spider-Man: Homecoming",
-          "description": "A young superhero balances school and crime-fighting.",
+          "description": "A young superhero balances school and crime-fighting. Follow Peter Parker's journey as he tries to navigate high school and his responsibilities as Spider-Man. This film captures the essence of the friendly neighborhood superhero.",
           "length": "133 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p090t8wh.jpg"
         }
@@ -75,31 +75,31 @@
       "movies": [
         {
           "name": "The Lion King",
-          "description": "A young lion prince overcomes adversity.",
+          "description": "A young lion prince overcomes adversity. Experience the circle of life in this beloved Disney classic. Join Simba, Timon, and Pumbaa on a journey of self-discovery, friendship, and the importance of embracing your true identity.",
           "length": "88 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p0gy74ym.jpg"
         },
         {
           "name": "Beauty and the Beast",
-          "description": "A young woman falls in love with a beast.",
+          "description": "A young woman falls in love with a beast. Enter the enchanting world of Belle and the Beast as they discover the true meaning of beauty. This timeless tale celebrates love, inner beauty, and the power of compassion.",
           "length": "84 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p07ycpws.jpg"
         },
         {
           "name": "Aladdin",
-          "description": "A street urchin discovers a magical lamp.",
+          "description": "A street urchin discovers a magical lamp. Embark on a magical adventure with Aladdin, Jasmine, and the Genie. This film is filled with memorable songs, dazzling animation, and a heartwarming story of love and self-discovery.",
           "length": "90 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p0dn1ctr.jpg"
         },
         {
           "name": "Frozen",
-          "description": "Two sisters navigate a wintry adventure.",
+          "description": "Two sisters navigate a wintry adventure. Enter the kingdom of Arendelle and join Elsa and Anna on a journey of sisterhood, love, and self-acceptance. This beloved film features unforgettable songs and a heartwarming story.",
           "length": "102 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p04l84gx.jpg"
         },
         {
           "name": "Moana",
-          "description": "A young girl sets sail on a daring journey.",
+          "description": "A young girl sets sail on a daring journey. Join Moana on a voyage across the ocean as she discovers her true identity and saves her people. This inspiring film celebrates courage, exploration, and the power of following your heart.",
           "length": "107 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/640x360/p0915mlp.jpg"
         }
@@ -110,31 +110,31 @@
       "movies": [
         {
           "name": "Star Wars: A New Hope",
-          "description": "A farm boy becomes a hero in a galaxy far, far away.",
+          "description": "A farm boy becomes a hero in a galaxy far, far away. Join Luke Skywalker, Princess Leia, and Han Solo in the epic space opera that started it all. This iconic film combines adventure, mythology, and unforgettable characters.",
           "length": "121 minutes",
           "imageUrl": "https://images.cdn1.buscalibre.com/fit-in/360x360/93/d1/93d145bf27fca2074a89b8f64250328c.jpg"
         },
         {
           "name": "The Empire Strikes Back",
-          "description": "The rebels face off against the empire.",
+          "description": "The rebels face off against the empire. Experience the dark and thrilling middle chapter of the original Star Wars trilogy. This film introduces iconic characters, reveals shocking twists, and sets the stage for an epic conclusion.",
           "length": "124 minutes",
           "imageUrl": "https://www.imdb.com/title/tt0080684/mediaviewer/rm3097064448/?ref_=tt_ov_i"
         },
         {
           "name": "Return of the Jedi",
-          "description": "The final battle between the rebels and the empire.",
+          "description": "The final battle between the rebels and the empire. Witness the epic conclusion to the original Star Wars trilogy as the rebels fight to overthrow the empire. This film delivers thrilling action, emotional moments, and a satisfying resolution.",
           "length": "131 minutes",
           "imageUrl": "https://www.imdb.com/title/tt0086190/mediaviewer/rm3636229120/?ref_=tt_ov_i"
         },
         {
           "name": "The Force Awakens",
-          "description": "A new generation of heroes and villains emerges.",
+          "description": "A new generation of heroes and villains emerges. Experience the beginning of a new Star Wars era as Rey, Finn, and Kylo Ren take center stage. This film combines nostalgia, new adventures, and introduces compelling new characters.",
           "length": "138 minutes",
           "imageUrl": "https://ychef.files.bbci.co.uk/1600x900/p03c7179.webp"
         },
         {
           "name": "The Last Jedi",
-          "description": "The resistance fights against the first order.",
+          "description": "The resistance fights against the first order. Join Rey, Finn, and Poe in their battle against the dark side. This film challenges expectations, explores the complexities of the force, and delivers thrilling action sequences.",
           "length": "152 minutes",
           "imageUrl": "https://ychef.files.bbci.co.uk/1600x900/p05qwlng.webp"
         }
@@ -145,31 +145,31 @@
       "movies": [
         {
           "name": "Free Solo",
-          "description": "A climber attempts to conquer a dangerous rock face.",
+          "description": "A climber attempts to conquer a dangerous rock face. Follow Alex Honnold as he attempts to free solo El Capitan, one of the world's most challenging climbs. This gripping documentary showcases the limits of human achievement and the pursuit of greatness.",
           "length": "100 minutes",
           "imageUrl": "https://ichef.bbci.co.uk/images/ic/1008xn/p070nqj1.jpg"
         },
         {
           "name": "The Cave",
-          "description": "A team of explorers venture into an underground cave.",
+          "description": "A team of explorers venture into an underground cave. Join a team of scientists and spelunkers as they uncover the secrets of a hidden world. This thrilling documentary takes you deep into the Earth's mysterious and awe-inspiring caves.",
           "length": "104 minutes",
           "imageUrl": "https://www.nationalgeographic.es/video/tv/cave-nominado-mejor-documental-en-los-oscar"
         },
         {
           "name": "Jane",
-          "description": "A documentary about the life of Jane Goodall.",
+          "description": "A documentary about the life of Jane Goodall. Explore the extraordinary life and groundbreaking work of primatologist Jane Goodall. This inspiring documentary celebrates her dedication to studying and protecting chimpanzees.",
           "length": "90 minutes",
           "imageUrl": "https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic732046.webp?w=760&h=511"
         },
         {
           "name": "Before the Flood",
-          "description": "Leonardo DiCaprio explores the impact of climate change.",
+          "description": "Leonardo DiCaprio explores the impact of climate change. Join Leonardo DiCaprio as he travels the world to witness the effects of climate change and search for solutions. This eye-opening documentary raises awareness about the urgent need for environmental action.",
           "length": "96 minutes",
           "imageUrl": "https://hablandoenvidrio.com/wp-content/uploads/2016/11/leonardo-di-caprio-documental-ecovidrio-1024x576.jpg"
         },
         {
           "name": "The Ivory Game",
-          "description": "A documentary about the illegal ivory trade.",
+          "description": "A documentary about the illegal ivory trade. Dive into the dangerous world of ivory poaching and smuggling. This gripping documentary exposes the devastating impact of the illegal ivory trade on elephant populations.",
           "length": "112 minutes",
           "imageUrl": "https://www.ashoka.org/sites/default/files/styles/medium_1600x1000/public/press_download_06.jpg?itok=-LArGxhs"
         }
