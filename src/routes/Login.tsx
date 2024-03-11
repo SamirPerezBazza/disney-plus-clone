@@ -4,6 +4,7 @@ import { Navigate } from 'react-router-dom';
 
 import Logo from '../assets/disney-logo.svg?react';
 import { checkEmail, login } from '../utils/checkCredentials';
+import { PageLayout } from '../layouts/PageLayout';
 
 interface UserLogin extends Omit<User, 'name' | 'profilePic'> {
 	email: string;
@@ -20,7 +21,7 @@ const Login = () => {
 	if (user) return <Navigate to="/" />;
 
 	return (
-		<div className="bg-disney-login bg-no-repeat bg-cover h-[100vh] bg-center">
+		<PageLayout>
 			<div className="flex flex-col gap-5 items-center h-full">
 				<div>
 					<Logo />
@@ -28,7 +29,7 @@ const Login = () => {
 
 				<Card onSubmit={onSubmit} />
 			</div>
-		</div>
+		</PageLayout>
 	);
 };
 

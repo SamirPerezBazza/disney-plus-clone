@@ -38,9 +38,10 @@ export const FavoritesProvider = ({ children }: Props) => {
 			) {
 				setFavoriteMovies(
 					favoriteMovies.filter(
-						(favMovie: MovieUser) => favMovie.name === movie.name
+						(favMovie: MovieUser) => favMovie.name !== movie.name
 					)
 				);
+
 				return;
 			}
 

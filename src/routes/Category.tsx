@@ -3,6 +3,7 @@
 import { Link, useLoaderData } from 'react-router-dom';
 import { getCategory } from '../utils/getCategory';
 import { Category as CategoryType } from '../types/categories';
+import { PageLayout } from '../layouts/PageLayout';
 
 export async function loader({ params }: any) {
 	const categories = await getCategory(params.category);
@@ -13,7 +14,7 @@ const Category = () => {
 	const categories = useLoaderData() as CategoryType;
 
 	return (
-		<div className="bg-disney-login h-[100vh] pt-4 px-4">
+		<PageLayout className="p-6">
 			<h1 className="text-white text-5xl mb-4">{categories.name}</h1>
 
 			<div className="flex justify-between">
@@ -29,7 +30,7 @@ const Category = () => {
 					</Link>
 				))}
 			</div>
-		</div>
+		</PageLayout>
 	);
 };
 

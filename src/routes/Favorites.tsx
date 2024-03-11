@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import { useFavorites } from '../context/FavoritesContext';
 import { getCategoryByMovieName } from '../utils/getCategory';
+import { PageLayout } from '../layouts/PageLayout';
 
 export const Favorites = () => {
 	const { movies } = useFavorites();
 
 	return (
-		<div className="bg-disney-login flex h-[100vh] p-6">
+		<PageLayout className="flex h-[100vh] p-6">
 			{movies.map((movie, index) => (
 				<Link
 					key={index}
@@ -21,6 +22,6 @@ export const Favorites = () => {
 					</div>
 				</Link>
 			))}
-		</div>
+		</PageLayout>
 	);
 };

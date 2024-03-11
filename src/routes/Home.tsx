@@ -1,5 +1,6 @@
 import { CategoryCard } from '../components/Category/CategoryCard';
 import categoriesJson from '../data/content.json';
+import { PageLayout } from '../layouts/PageLayout';
 
 const categoryNames = categoriesJson.categories.flatMap(
 	(category) => category.name
@@ -9,7 +10,7 @@ const recomendedMovies = categoriesJson.categories[1].movies;
 
 const Home = () => {
 	return (
-		<div className="bg-disney-login bg-no-repeat bg-cover h-[100vh] bg-center">
+		<PageLayout>
 			<div
 				data-hs-carousel='{
     "loadingClasses": "opacity-0",
@@ -82,7 +83,7 @@ const Home = () => {
 					))}
 				</div>
 			</div>
-		</div>
+		</PageLayout>
 	);
 };
 

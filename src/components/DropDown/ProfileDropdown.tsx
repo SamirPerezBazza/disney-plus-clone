@@ -26,7 +26,6 @@ export const ProfileDropdown = ({ name, profilePic, children }: Props) => {
 	return (
 		<div ref={ref} className="cursor-pointer" onClick={toggleMenu}>
 			<div className="text-white flex items-center">
-				<img src={profilePic} alt="User's profile" />
 				<strong className="mr-2">{name}</strong>
 				<svg
 					fill="#ffffff"
