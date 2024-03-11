@@ -26,6 +26,7 @@ export const ProfileDropdown = ({ name, profilePic, children }: Props) => {
 	return (
 		<div ref={ref} className="cursor-pointer" onClick={toggleMenu}>
 			<div className="text-white flex items-center">
+				<img src={profilePic} alt="User's profile" />
 				<strong className="mr-2">{name}</strong>
 				<svg
 					fill="#ffffff"
@@ -37,15 +38,13 @@ export const ProfileDropdown = ({ name, profilePic, children }: Props) => {
 					xmlnsXlink="http://www.w3.org/1999/xlink"
 					viewBox="0 0 490 490"
 					xmlSpace="preserve"
-					dataDarkreaderInlineFill=""
-					style={{ '--darkreader-inline-fill': '#000000' }}
 					stroke="#ffffff"
 				>
-					<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+					<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
 					<g
 						id="SVGRepo_tracerCarrier"
-						stroke-linecap="round"
-						stroke-linejoin="round"
+						strokeLinecap="round"
+						strokeLinejoin="round"
 					></g>
 					<g id="SVGRepo_iconCarrier">
 						{' '}
