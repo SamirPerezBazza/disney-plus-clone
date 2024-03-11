@@ -22,17 +22,17 @@ export const routes: RouteObject[] = [
 				index: true,
 			},
 			{
-				path: '/favorites',
+				path: paths.favorites,
 				element: <Favorites />,
 				index: true,
 			},
 			{
-				path: '/category/:category',
+				path: paths.category,
 				element: <Category />,
 				loader: categoryLoader,
 			},
 			{
-				path: '/category/:category/:movie',
+				path: paths.movie,
 				element: <Movie />,
 				loader: movieLoader,
 			},

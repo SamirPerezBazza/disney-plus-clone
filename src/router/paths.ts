@@ -3,9 +3,9 @@
 const paths = {
   root: '/',
   login: '/login',
-  home: '/home',
-  category: '/home/:category',
-  detail: '/home/:id',
+  favorites: '/favorites',
+  category: '/category/:category',
+  movie: '/category/:category/:movie',
 };
 
 export default Object.freeze(paths);
