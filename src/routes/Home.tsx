@@ -71,9 +71,13 @@ const Home = () => {
 					{recomendedMovies.map((recMovie, index) => (
 						<div
 							key={index}
-							className="w-[18%] h-[100px] bg-gradient-to-b from-gray-600 to-gray-700 rounded mt-2"
+							className="w-[18%] h-[90px] bg-gradient-to-b from-gray-600 to-gray-700 rounded mt-2"
 						>
-							<img src={recMovie.imageUrl} alt={recMovie.name} />
+							<img
+								className="w-full h-full object-cover"
+								src={recMovie.imageUrl}
+								alt={recMovie.name}
+							/>
 						</div>
 					))}
 				</div>

@@ -6,6 +6,7 @@ import { AuthProvider } from '../context/AuthContext';
 import { Root } from '../routes/root';
 import Category, { loader as categoryLoader } from '../routes/Category';
 import { Movie, loader as movieLoader } from '../routes/Movie';
+import { Favorites } from '../routes/Favorites';
 
 export const routes: RouteObject[] = [
 	{
@@ -18,6 +19,11 @@ export const routes: RouteObject[] = [
 		children: [
 			{
 				element: <Home />,
+				index: true,
+			},
+			{
+				path: '/favorites',
+				element: <Favorites />,
 				index: true,
 			},
 			{

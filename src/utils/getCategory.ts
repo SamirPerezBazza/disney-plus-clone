@@ -14,3 +14,15 @@ export const getCategory = (category: string) => new Promise<Category[]>((resolv
   }
 
 });
+
+export const getCategoryByMovieName = (movieName: string): Category | undefined => {
+  try {
+    const categoryData = movies.categories.find((category) =>
+      category.movies.some((movie) => movie.name === movieName)
+    );
+    return categoryData;
+  } catch (error) {
+    console.error(error);
+    return undefined;
+  }
+};
