@@ -1,4 +1,4 @@
-import { useLoaderData } from 'react-router-dom';
+import { LoaderFunction, useLoaderData } from 'react-router-dom';
 import { getMovie } from '../utils/getMovie';
 import { Movie as MovieType } from '../types/categories';
 import { useFavorites } from '../context/FavoritesContext';
@@ -8,13 +8,13 @@ interface Params {
 	movie: string;
 }
 
-export async function loader({ params }: { params: Params }) {
-	const { category, movie } = params;
+export const loader: LoaderFunction = async ({ params }) => {
+	const { category, movie } = params as unknown as Params;
 
 	const movieData = await getMovie(category, movie);
 
 	return movieData[0];
-}
+};
 
 export const Movie = () => {
 	const movie = useLoaderData() as MovieType;

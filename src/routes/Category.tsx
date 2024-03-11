@@ -1,14 +1,20 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link, LoaderFunction, useLoaderData } from 'react-router-dom';
 import { getCategory } from '../utils/getCategory';
 import { Category as CategoryType } from '../types/categories';
 import { PageLayout } from '../layouts/PageLayout';
 
-export async function loader({ params }: any) {
-	const categories = await getCategory(params.category);
-	return categories[0];
+interface Params {
+	category: string;
 }
+
+export const loader: LoaderFunction = async ({ params }) => {
+	const { category } = params as unknown as Params;
+
+	const categories = await getCategory(category);
+	return categories[0];
+};
 
 const Category = () => {
 	const categories = useLoaderData() as CategoryType;
